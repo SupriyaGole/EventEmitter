@@ -1,0 +1,52 @@
+body{
+	background-image:url("background.jpg");
+	background-size:100%
+}
+
+h1{
+	color:red;
+	text-align:center;
+	font-size:35px
+}
+
+#websites img{
+	width:50;
+	height:50;
+	float:right;
+}
+.category{
+	table-layout:fixed;
+	border-collapse: separate;
+    border-spacing: 2px;
+    border-color: brown;
+    font-size:20px
+}
+table, td {
+	background:grey;
+    border: 1px solid black;
+    margin:2cm 4cm 4cm 12cm;
+}
+
+#songs >ul >li >ul{
+    list-style-type: none;
+    display: inline;
+    margin: 10 10 0 10;
+    padding: 1%;
+    border-radius: 4px 4px 0 0;
+    line-height:1%
+};
+
+
+#images >td{
+	padding:100%;
+	position:absolute;
+	margin:0 0% 3% 0;
+
+}
+
+img {
+	width: 250px;
+	height: 250px;
+}
+
+
